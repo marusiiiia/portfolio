@@ -1,0 +1,32 @@
+.hamburger {
+  height: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+
+  &__line {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    &--long {
+      width: 36px;
+    }
+  }
+}
+
+.menu {
+  &__block {
+    background-color: $main-color;
+  }
+
+  &__overlay {
+    position: absolute;
+    // z-index: 3;
+    width: 100%;
+    height: 100vh;
+    // background-color: rgba(255, 255, 255, 0.5);
+  }
+}

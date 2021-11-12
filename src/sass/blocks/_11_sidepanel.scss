@@ -1,0 +1,29 @@
+.sidepanel {
+  z-index: 10;
+  margin-top: 215px;
+  margin-left: 50px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__link {
+    margin-bottom: 15px;
+    display: block;
+  }
+  &__divider {
+    background-color: #000;
+    width: 2px;
+    height: 70px;
+    margin-bottom: 15px;
+  }
+
+  &__socials {
+    height: 150px;
+    span {
+      display: block;
+      font-weight: bold;
+      font-size: 16px;
+      transform: rotate(-90deg) translateX(-65px);
+    }
+  }
+}

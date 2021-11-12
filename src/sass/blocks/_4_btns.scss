@@ -1,0 +1,12 @@
+.btn {
+  background-color: $main-color;
+  padding: 12px 25px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000;
+  &:hover {
+    text-decoration: none;
+    color: #000;
+  }
+}

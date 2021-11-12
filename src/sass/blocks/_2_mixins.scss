@@ -1,0 +1,13 @@
+@mixin before-cicle {
+  &:before {
+    content: "";
+    width: 36px;
+    height: 36px;
+    background-color: $main-color;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -6px;
+    z-index: -1;
+  }
+}
