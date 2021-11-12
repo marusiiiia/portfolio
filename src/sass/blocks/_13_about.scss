@@ -1,0 +1,7 @@
+.about {
+  padding-top: 120px;
+  color: green;
+  &__title {
+    @include before-circle;
+  }
+}
