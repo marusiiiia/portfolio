@@ -1,0 +1,77 @@
+.use {
+  margin-bottom: 120px;
+  &__title {
+    margin-bottom: 6px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  &__divider {
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  &__list {
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    gap: 13px;
+  }
+}
+
+.use-item {
+  border: 1px solid black;
+  padding: 30px 30px 25px 30px;
+  &__img {
+    margin-bottom: 20px;
+    min-height: 62px;
+  }
+  &__title {
+    margin-bottom: 17px;
+  }
+  &__text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+}
+
+.skills-item {
+  max-width: 350px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    padding-left: 14px;
+    margin-bottom: 27px;
+    position: relative;
+    @include before-circle;
+  }
+  &__percent {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+  }
+
+  &__gray-line {
+    background-color: #e8e4de;
+    height: 14px;
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  &__orange-line {
+    height: 14px;
+    border-radius: 4px;
+    background-color: $main-color;
+  }
+}

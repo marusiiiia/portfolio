@@ -15,10 +15,25 @@
   max-width: 1140px;
   margin: 0 auto;
 }
+
+.no-style {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.divider {
+  background-color: $main-color;
+  width: 60px;
+  height: 2px;
+  margin-bottom: 60px;
+}
+
 @import "blocks/4_btns";
 @import "blocks/3_titles";
 @import "blocks/10_promo";
 @import "blocks/11_sidepanel";
 @import "blocks/12_menu";
-
 @import "blocks/13_about";
+@import "blocks/14_resume";
+@import "blocks/15_use";

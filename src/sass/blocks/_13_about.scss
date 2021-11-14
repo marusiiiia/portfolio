@@ -1,7 +1,83 @@
 .about {
   padding-top: 120px;
-  color: green;
+  padding-bottom: 120px;
+
   &__title {
+    padding-left: 10px;
+    position: relative;
     @include before-circle;
+    margin-bottom: 6px;
+    margin-top: 6px;
+  }
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__img {
+    margin-right: 70px;
+  }
+}
+
+.about-desc {
+  .divider {
+    margin-bottom: 20px;
+  }
+  &__text {
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 570px;
+  }
+
+  &__services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 260px);
+    column-gap: 50px;
+    row-gap: 20px;
+  }
+  &__item {
+    position: relative;
+    padding-left: 60px;
+    @include before-circle;
+    &:before {
+      top: 0px;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+    }
+    &:nth-child(1):after {
+      top: 11px;
+      left: 14px;
+      width: 25px;
+      height: 25px;
+      background-image: url(../img/serv1.svg);
+    }
+
+    &:nth-child(2):after {
+      top: 14px;
+      left: 16px;
+      width: 13px;
+      height: 24px;
+      background-image: url(../img/serv2.svg);
+    }
+
+    &:nth-child(3):after {
+      top: 15px;
+      left: 14px;
+      width: 25px;
+      height: 21px;
+      background-image: url(../img/serv3.svg);
+    }
+  }
+
+  &__item-content {
+    margin-bottom: 20px;
+  }
+  &__title {
+    margin-bottom: 6px;
   }
 }
