@@ -1,0 +1,26 @@
+.portfolio {
+  margin-bottom: 60px;
+  &__wrapper {
+    display: grid;
+    gap: 5px;
+    grid-template: repeat(2, 280px) / repeat(4, 280px);
+    grid-auto-rows: 280px;
+  }
+  &__img {
+    width: 100%;
+  }
+}
+.hosizont {
+  grid-column: span 2;
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.vertical {
+  grid-row: span 2;
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}

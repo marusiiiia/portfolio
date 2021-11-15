@@ -344,9 +344,11 @@
 
     <section class="resume">
       <div class="container">
-        <h2 class="title title--fz16 resume__title">Опыт</h2>
-        <div class="title title--fz36 resume__subtitle">Чем я буду полезна</div>
-        <div class="divider resume__divider"></div>
+        <h2 class="title title--fz16 title__section-title">Опыт</h2>
+        <div class="title title--fz36 title__section-subtitle">
+          Чем я буду полезна
+        </div>
+        <div class="divider title__section-divider"></div>
         <div class="resume__content">
           <div class="resume__part resume__part--education">
             <div class="resume__vertical"></div>
@@ -443,13 +445,13 @@
 
     <section class="use">
       <div class="container">
-        <h2 class="title title--fz16 use__title">Навыки</h2>
-        <div class="title title--fz36 use__subtitle">
+        <h2 class="title title--fz16 title__section-title">Навыки</h2>
+        <div class="title title--fz36 title__section-subtitle">
           Что я использую в работе
         </div>
-        <div class="divider use__divider"></div>
+        <div class="divider title__section-divider"></div>
         <ul class="use__list no-style">
-          <li class="use__item use-item">
+          <li fclass="use__item use-item">
             <img
               src="icons/skills/html5.svg"
               alt=""
@@ -560,10 +562,10 @@
               <div class="title title--fz14 skills-item__title">
                 Создание сайтов
               </div>
-              <div class="skills-item__percent">100%</div>
+              <div class="skills-item__percent">50%</div>
             </div>
             <div class="skills-item__gray-line">
-              <div class="skills-item__orange-line" style="width: 100%"></div>
+              <div class="skills-item__orange-line"></div>
             </div>
           </li>
 
@@ -572,7 +574,7 @@
               <div class="title title--fz14 skills-item__title">
                 Создание приложений
               </div>
-              <div class="skills-item__percent">85%</div>
+              <div class="skills-item__percent">15%</div>
             </div>
             <div class="skills-item__gray-line">
               <div class="skills-item__orange-line" style="width: 85%"></div>
@@ -584,7 +586,7 @@
               <div class="title title--fz14 skills-item__title">
                 Работа с данными
               </div>
-              <div class="skills-item__percent">90%</div>
+              <div class="skills-item__percent">10%</div>
             </div>
             <div class="skills-item__gray-line">
               <div class="skills-item__orange-line" style="width: 90%"></div>
@@ -623,6 +625,103 @@
             </div>
             <div class="skills-item__gray-line">
               <div class="skills-item__orange-line" style="width: 100%"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="title title--fz16 title__section-title">Портфолио</h2>
+        <div class="title title--fz36 title__section-subtitle">Мои работы</div>
+        <div class="divider title__section-divider"></div>
+
+        <ul class="portfolio__wrapper no-style">
+          <li class="portfolio__item">
+            <a href="uber" class="portfolio link"
+              ><img src="img/works/uber.jpg" alt="" class="portfolio__img"
+            /></a>
+          </li>
+          <li class="portfolio__item">
+            <a href="pulse" class="portfolio link"
+              ><img src="img/works/pulse.jpg" alt="" class="portfolio__img"
+            /></a>
+          </li>
+          <li class="portfolio__item">
+            <a href="" class="portfolio link"
+              ><img src="img/works/bread.jpg" alt="" class="portfolio__img"
+            /></a>
+          </li>
+          <li class="portfolio__item vertical">
+            <a href="" class="portfolio link"
+              ><img src="img/works/plans.jpg" alt="" class="portfolio__img"
+            /></a>
+          </li>
+          <li class="portfolio__item">
+            <a href="" class="portfolio link"
+              ><img src="img/works/ipad.jpg" alt="" class="portfolio__img"
+            /></a>
+          </li>
+          <li class="portfolio__item hosizont">
+            <a href="" class="portfolio link"
+              ><img src="img/works/mac.jpg" alt="" class="portfolio__img"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="price">
+      <div class="container">
+        <h2 class="title title--fz16 title__section-title">Прайс-лист</h2>
+        <div class="divider title__section-divider"></div>
+        <ul class="price__list">
+          <li class="price__item price-item">
+            <span class="price-item__title">Landing-page</span>
+            <span class="price-item__price">от 8000 руб.</span>
+            <div class="price-item__desc">
+              Одностраничный сайт для презентации услуг/товаров/
+            </div>
+          </li>
+
+          <li class="price__item price-item">
+            <span class="price-item__title">Web-приложение</span>
+            <span class="price-item__price">от 28000 руб.</span>
+            <div class="price-item__desc">
+              Приложение внутри браузера для лучшего комфорта
+            </div>
+          </li>
+
+          <li class="price__item price-item">
+            <span class="price-item__title">Корпоративный сайт</span>
+            <span class="price-item__price">от 20000 руб.</span>
+            <div class="price-item__desc">
+              Сайт для вашего бизнеса или компании
+            </div>
+          </li>
+
+          <li class="price__item price-item">
+            <span class="price-item__title">Android/IOS Приложение</span>
+            <span class="price-item__price">от 25000 руб.</span>
+            <div class="price-item__desc">
+              Приложение для смартфона любой ОС
+            </div>
+          </li>
+
+          <li class="price__item price-item">
+            <span class="price-item__title">Интернет-магазин</span>
+            <span class="price-item__price">от 30000 руб.</span>
+            <div class="price-item__desc">
+              Инструмент для ваших продаж в сети
+            </div>
+          </li>
+
+          <li class="price__item price-item">
+            <span class="price-item__title">Дизайн</span>
+            <span class="price-item__price">Индивидуально</span>
+            <div class="price-item__desc">
+              Создам дизайн для вашего сайта/приложения...
             </div>
           </li>
         </ul>
