@@ -6,7 +6,7 @@
     padding-left: 50px;
     padding-right: 50px;
     display: grid;
-    grid-template: minmax(44px, auto) / repeat(2, minmax(auto, 366px));
+    grid-template: minmax(44px, auto) / repeat(2, minmax(auto, 370px));
     justify-content: space-between;
   }
 }
@@ -15,7 +15,7 @@
   padding-left: 25px;
   display: grid;
   justify-content: space-between;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, auto);
   margin-bottom: 15px;
   &__title {
     font-weight: bold;
